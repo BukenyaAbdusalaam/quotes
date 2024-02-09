@@ -46,15 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'Salaam Pq',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
-          ],
+          children: [Icon(Icons.email_rounded), Text('Check your Email')],
         ),
       ),
       // This trailing comma makes auto-formatting nicer for build methods.
